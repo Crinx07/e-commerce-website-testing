@@ -24,7 +24,7 @@ Tests have not yet been executed against a real application.
 | Test Case ID | Actual Result | Status | Notes |
 |---|---|---|---|
 | LOGIN-001 | Successfully logged in and reached the products page. | PASS | Valid demo credentials accepted. |
-| LOGIN-002 | Not executed | Not Run | |
+| LOGIN-002 | Login rejected. Error: "Username and password do not match any user." | PASS | Incorrect password was rejected. |
 | LOGIN-003 | Not executed | Not Run | |
 | LOGIN-004 | Not executed | Not Run | |
 | LOGIN-005 | Not executed | Not Run | |
