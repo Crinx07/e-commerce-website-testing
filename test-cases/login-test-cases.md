@@ -21,6 +21,7 @@
 | CART-003 | Verify cart with multiple products | Add two different products and open the cart. | Both products appear in the cart, and the badge displays 2. |
 | CHECKOUT-001 | Submit checkout with required fields blank | Add a product, open the cart, click Checkout, leave all fields blank, and click Continue. | Checkout is blocked, and a required-field validation message appears. |
 | CHECKOUT-002 | Submit checkout with missing last name | Enter first name and postal code, leave last name blank, and click Continue. | Checkout is blocked, and a required-field validation message appears. |
+| CHECKOUT-003 | Submit checkout with missing postal code | Enter first name and last name, leave postal code blank, and click Continue. | Checkout is blocked, and a required-field validation message appears. |
 
 ## Execution Results
 
@@ -39,3 +40,4 @@ Tests have not yet been executed against a real application.
 | CART-003 | Both products appeared in the cart, and the badge displayed the correct count. | PASS | Multiple products were added successfully. |
 | CHECKOUT-001 | Checkout did not proceed. Error: "First Name is required." | PASS | Required first-name validation works correctly. |
 | CHECKOUT-002 | Checkout did not proceed. Error: "Last name is required." | PASS | Required last-name validation works correctly. |
+| CHECKOUT-003 | Checkout did not proceed. Error: "Postal Code is required." | PASS | Required postal-code validation works correctly. |
