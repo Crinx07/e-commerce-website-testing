@@ -1,0 +1,3 @@
+| CART-001 | Verify cart badge after adding a product | Log in, add one product, and observe the cart badge. | Cart badge displays 1. |
+| CART-002 | Remove a product from the cart | Add one product, open the cart, and click Remove. | Product is removed, and the cart badge reflects zero items. |
+| CART-003 | Verify cart with multiple products | Add two different products and open the cart. | Both products appear in the cart, and the badge displays 2. |
