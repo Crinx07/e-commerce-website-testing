@@ -29,6 +29,7 @@ Tests have not yet been executed against a real application.
 | Test Case ID | Actual Result | Status | Notes |
 |---|---|---|---|
 | PROD-001 | The product details page opened and displayed the correct name, image, description, price, and Add to cart button. | PASS | Product details displayed correctly. |
+| PROD-001 | Clicking Sauce Labs Backpack opens a product details page showing a different product. | FAIL | Tested with problem_user; see BUG-002. |
 | PROD-002 | The product was added successfully, the cart badge displayed 1, and the button changed to "Remove". | PASS | Add-to-cart functionality works correctly on the product details page. |
 | PROD-003 | The product was removed, the cart badge no longer displayed a number, and the button changed back to "Add to cart". | PASS | Remove functionality works correctly on the product details page. |
 | PROD-004 | The Products page opened, the product list was displayed, and the cart remained empty. | PASS | Navigation back to the Products page works correctly. |
