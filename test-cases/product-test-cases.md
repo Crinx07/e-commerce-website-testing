@@ -16,6 +16,7 @@
 | PROD-004 | Navigate back to products from product details | Open the Sauce Labs Backpack details page and click "Back to products". | The Products page opens, the product list is displayed, and the cart remains empty. |
 | PROD-005 | Verify product details consistency | Compare the Sauce Labs Backpack's name, price, and description on the Products page and product details page. | The product name, price, and description match on both pages. |
 | PROD-006 | Verify product image displays correctly | Open the Sauce Labs Backpack details page and inspect the product image. | The product image loads successfully, is visible, and represents the correct product. |
+| PROD-007 | Verify product details after page refresh | Open the Sauce Labs Backpack details page, refresh the browser using Ctrl + R, and inspect the product details. | The page reloads successfully and displays the correct product name, image, description, and price. |
 
 
 ## Execution Results
@@ -30,3 +31,4 @@ Tests have not yet been executed against a real application.
 | PROD-004 | The Products page opened, the product list was displayed, and the cart remained empty. | PASS | Navigation back to the Products page works correctly. |
 | PROD-005 | The product name, price, and description matched on both pages. | PASS | Product information is consistent between the Products page and details page. |
 | PROD-006 | The product image loaded successfully, was visible, and showed the correct product. | PASS | Product image displays correctly. |
+| PROD-007 | The page refreshed successfully, and all product details remained correct. | PASS | Product details display correctly after refreshing the page. |
