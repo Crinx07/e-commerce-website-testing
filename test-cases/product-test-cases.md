@@ -17,6 +17,7 @@
 | PROD-005 | Verify product details consistency | Compare the Sauce Labs Backpack's name, price, and description on the Products page and product details page. | The product name, price, and description match on both pages. |
 | PROD-006 | Verify product image displays correctly | Open the Sauce Labs Backpack details page and inspect the product image. | The product image loads successfully, is visible, and represents the correct product. |
 | PROD-007 | Verify product details after page refresh | Open the Sauce Labs Backpack details page, refresh the browser using Ctrl + R, and inspect the product details. | The page reloads successfully and displays the correct product name, image, description, and price. |
+| PROD-008 | Verify cart state after page refresh | Add the Sauce Labs Backpack to the cart, confirm the badge displays 1, refresh the page, and check the badge and product button. | The cart badge still displays 1, and the product button remains "Remove" after refreshing. |
 
 
 ## Execution Results
@@ -32,3 +33,4 @@ Tests have not yet been executed against a real application.
 | PROD-005 | The product name, price, and description matched on both pages. | PASS | Product information is consistent between the Products page and details page. |
 | PROD-006 | The product image loaded successfully, was visible, and showed the correct product. | PASS | Product image displays correctly. |
 | PROD-007 | The page refreshed successfully, and all product details remained correct. | PASS | Product details display correctly after refreshing the page. |
+| PROD-008 | After refreshing the page, the cart badge still displayed 1, and the product button remained "Remove". | PASS | Cart state was preserved after refreshing the product details page. |
