@@ -38,3 +38,8 @@ This practice developed foundational SQL skills that are useful for validating b
 ## Notes
 
 The exercises were performed in a local practice database. They demonstrate SQL learning and validation fundamentals rather than a direct database connection to the Simple Books API.
+
+## Test Documentation
+
+- [SQL Validation Queries](validation-queries.sql)
+- [Database Validation Test Results](database-validation-results.md)
