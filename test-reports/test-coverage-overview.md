@@ -21,6 +21,8 @@
 
 ## Test Execution Evidence
 
+A total of **41 test execution records** were documented: **35 PASS (85.4%)** and **6 FAIL (14.6%)** across six functional areas. These results include testing with both `standard_user` and `problem_user`.
+
 Individual execution results are documented for each feature in the `test-execution-results/` folder. The documents record actual behavior and PASS/FAIL outcomes.
 
 - [Test Execution Summary](../test-execution-results/test-summary.md)
