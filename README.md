@@ -39,6 +39,10 @@ This project demonstrates practical software testing skills using an e-commerce 
 
 ## Repository Contents
 
+### Test Reports
+- [Test Coverage Overview](test-reports/test-coverage-overview.md)
+- [Test Execution Summary](test-execution-results/test-summary.md)
+
 ### Test Cases
 - [Login Test Cases](test-cases/login-test-cases.md)
 - [Product Test Cases](test-cases/product-test-cases.md)
