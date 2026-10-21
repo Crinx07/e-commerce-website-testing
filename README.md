@@ -72,7 +72,7 @@ This project demonstrates practical software testing skills using an e-commerce 
 ### Other Practice
 - [API Testing with Postman](api-testing/README.md)
 - [SQL Testing and Database Validation](sql-testing/README.md)
-- CI/CD practice with GitHub Actions and Postman CLI
+- [CI/CD Testing with GitHub Actions and Postman CLI](ci-cd-testing.md)
 
 ## Important Note
 
