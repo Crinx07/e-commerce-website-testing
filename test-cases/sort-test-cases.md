@@ -26,3 +26,4 @@ Tests have not yet been executed against a real application.
 | SORT-002 | Products were correctly sorted from the highest price to the lowest price. | PASS | Price sorting in descending order works correctly. |
 | SORT-003 | Product names were correctly sorted alphabetically from A to Z. | PASS | Alphabetical sorting in ascending order works correctly. |
 | SORT-004 | Product names were correctly sorted alphabetically from Z to A. | PASS | Alphabetical sorting in descending order works correctly. |
+| SORT-004 | Selecting Name (Z to A) leaves products in A–Z order instead of sorting them in descending alphabetical order. | FAIL | Tested with `problem_user`; see BUG-004. |
