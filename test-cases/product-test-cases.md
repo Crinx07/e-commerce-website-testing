@@ -34,6 +34,7 @@ Tests have not yet been executed against a real application.
 | PROD-004 | The Products page opened, the product list was displayed, and the cart remained empty. | PASS | Navigation back to the Products page works correctly. |
 | PROD-005 | The product name, price, and description matched on both pages. | PASS | Product information is consistent between the Products page and details page. |
 | PROD-006 | The product image loaded successfully, was visible, and showed the correct product. | PASS | Product image displays correctly. |
+| PROD-006 | The Sauce Labs Backpack displays a dog image instead of the correct product image. | FAIL | Tested with problem_user; see BUG-001. |
 | PROD-007 | The page refreshed successfully, and all product details remained correct. | PASS | Product details display correctly after refreshing the page. |
 | PROD-008 | After refreshing the page, the cart badge still displayed 1, and the product button remained "Remove". | PASS | Cart state was preserved after refreshing the product details page. |
 | PROD-009 | After logging out and logging in again, the cart badge still displayed 1. | PASS | Cart contents persisted across logout and login. Confirm the expected persistence requirement before finalizing the status. |
