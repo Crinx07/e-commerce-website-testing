@@ -47,3 +47,8 @@ This practice helped develop foundational skills in API request execution, respo
 ## Notes
 
 This is a learning project using a practice API. The documentation describes the testing activities and tools practiced, not a claim that every possible API scenario has been tested.
+
+## Test Documentation
+
+- [API Test Cases](api-test-cases.md)
+- [API Test Execution Results](api-test-execution-results.md)
