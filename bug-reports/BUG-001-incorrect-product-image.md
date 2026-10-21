@@ -35,7 +35,8 @@ The product listing displays a dog image instead of the backpack image.
 
 ## Evidence
 
-Attach a screenshot showing the Sauce Labs Backpack product name and the incorrect dog image.
+<img width="1907" height="932" alt="image" src="https://github.com/user-attachments/assets/d5f03508-22dd-4966-91df-d2d171982583" />
+
 
 ## Related Test Case
 
