@@ -27,6 +27,7 @@ Tests have not yet been executed against a real application.
 |---|---|---|---|
 | CHECKOUT-001 | Checkout did not proceed. Error: "First Name is required." | PASS | Required first-name validation works correctly. |
 | CHECKOUT-002 | Checkout did not proceed. Error: "Last name is required." | PASS | Required last-name validation works correctly. |
+| CHECKOUT-002 | The Last Name field does not accept input correctly; typing affects the First Name field. | FAIL | Tested with problem_user; see BUG-003. |
 | CHECKOUT-003 | Checkout did not proceed. Error: "Postal Code is required." | PASS | Required postal-code validation works correctly. |
 | CHECKOUT-004 | Checkout proceeded successfully to the Checkout: Overview page. | PASS | Checkout accepts valid required information. |
 | CHECKOUT-005 | Product details, quantity, item total, tax, and final total displayed correctly. | PASS | Order summary and price calculations appear correct. |
