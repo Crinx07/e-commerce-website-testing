@@ -14,6 +14,7 @@
 | PROD-002 | Add product to cart from product details page | Open the Sauce Labs Backpack details page and click "Add to cart". | The product is added to the cart, the cart badge displays 1, and the button changes to "Remove". |
 | PROD-003 | Remove product from cart on product details page | Add the Sauce Labs Backpack to the cart, then click "Remove" on its details page. | The product is removed, the cart badge no longer displays a number, and the button changes back to "Add to cart". |
 | PROD-004 | Navigate back to products from product details | Open the Sauce Labs Backpack details page and click "Back to products". | The Products page opens, the product list is displayed, and the cart remains empty. |
+| PROD-005 | Verify product details consistency | Compare the Sauce Labs Backpack's name, price, and description on the Products page and product details page. | The product name, price, and description match on both pages. |
 
 
 ## Execution Results
@@ -26,3 +27,4 @@ Tests have not yet been executed against a real application.
 | PROD-002 | The product was added successfully, the cart badge displayed 1, and the button changed to "Remove". | PASS | Add-to-cart functionality works correctly on the product details page. |
 | PROD-003 | The product was removed, the cart badge no longer displayed a number, and the button changed back to "Add to cart". | PASS | Remove functionality works correctly on the product details page. |
 | PROD-004 | The Products page opened, the product list was displayed, and the cart remained empty. | PASS | Navigation back to the Products page works correctly. |
+| PROD-005 | The product name, price, and description matched on both pages. | PASS | Product information is consistent between the Products page and details page. |
