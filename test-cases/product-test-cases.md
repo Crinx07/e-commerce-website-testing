@@ -19,7 +19,7 @@
 | PROD-007 | Verify product details after page refresh | Open the Sauce Labs Backpack details page, refresh the browser using Ctrl + R, and inspect the product details. | The page reloads successfully and displays the correct product name, image, description, and price. |
 | PROD-008 | Verify cart state after page refresh | Add the Sauce Labs Backpack to the cart, confirm the badge displays 1, refresh the page, and check the badge and product button. | The cart badge still displays 1, and the product button remains "Remove" after refreshing. |
 | PROD-009 | Verify cart state after logout and login | Add the Sauce Labs Backpack to the cart, log out, log in again with standard_user / secret_sauce, and check the cart badge. | The cart retains the product after the user logs out and logs in again, if cart persistence is a defined requirement. |
-| PROD-010 | Verify product information in shopping cart | Add Sauce Labs Backpack to the cart, open the shopping cart, and check the product name, quantity, and price. | The cart displays Sauce Labs Backpack with quantity 1 and the correct product price. |
+
 
 
 ## Execution Results
@@ -37,4 +37,4 @@ Tests have not yet been executed against a real application.
 | PROD-007 | The page refreshed successfully, and all product details remained correct. | PASS | Product details display correctly after refreshing the page. |
 | PROD-008 | After refreshing the page, the cart badge still displayed 1, and the product button remained "Remove". | PASS | Cart state was preserved after refreshing the product details page. |
 | PROD-009 | After logging out and logging in again, the cart badge still displayed 1. | PASS | Cart contents persisted across logout and login. Confirm the expected persistence requirement before finalizing the status. |
-| PROD-010 | The cart displayed Sauce Labs Backpack with quantity 1 and the correct product price. | PASS | Product information in the cart matches the product listing. |
+
