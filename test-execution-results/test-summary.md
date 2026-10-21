@@ -22,13 +22,19 @@ The testing covered the following functional areas:
 
 ## 3. Test Execution
 
+A total of **41 test execution records** were documented across six functional areas.
+
+| Result | Count | Percentage |
+|---|---:|---:|
+| PASS | 35 | 85.4% |
+| FAIL | 6 | 14.6% |
+| **Total** | **41** | **100%** |
+
 Test cases were executed manually by comparing actual application behavior against the documented expected results.
 
-- Test cases and execution results are documented separately by feature.
-- Both `standard_user` and `problem_user` were used.
-- Failed test scenarios were documented for further investigation.
-
-**Note:** Final PASS and FAIL totals should be calculated from the individual execution records to avoid inaccurate reporting.
+- Results include testing with both `standard_user` and `problem_user`.
+- Failed scenarios were documented and linked to relevant bug reports where applicable.
+- These totals represent recorded execution results, not necessarily unique test cases.
 
 ## 4. Defect Summary
 
