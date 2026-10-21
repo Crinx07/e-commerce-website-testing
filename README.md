@@ -70,7 +70,7 @@ This project demonstrates practical software testing skills using an e-commerce 
 - [Bug Report Template](bug-reports/bug-report-template.md)
 
 ### Other Practice
-- API testing with Postman
+- [API Testing with Postman](api-testing/README.md)
 - SQL validation with MySQL
 - CI/CD practice with GitHub Actions and Postman CLI
 
