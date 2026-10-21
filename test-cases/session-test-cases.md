@@ -1,8 +1,8 @@
-# Sort Functionality — Test Cases
+# Session Functionality — Test Cases
 
 ## Project Information
 - **Project:** E-Commerce Website Testing
-- **Feature:** Sort
+- **Feature:** Session
 - **Testing Type:** Functional Testing
 - **Test Environment:** To be determined
 
