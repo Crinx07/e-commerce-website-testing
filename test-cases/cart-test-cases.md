@@ -22,5 +22,6 @@
 | CART-001 | Cart badge displayed 1 after adding one product. | PASS | Badge Updated Correctly. |
 | CART-001 | Clicking Add to cart for the Sauce Labs Fleece Jacket does not add the product to the cart. | FAIL | Tested with problem_user; see BUG-005. The Bike Light could be added successfully. |
 | CART-002 | Product disappeared from the cart, and the badge no longer displayed a number. | PASS | Cart updated correctly after removal. |
+| CART-002 | Clicking Remove for the Sauce Labs Backpack on the Products page does not remove it from the cart. | FAIL | Tested with `problem_user`; see BUG-006. The Backpack remains in the cart. |
 | CART-003 | Both products appeared in the cart, and the badge displayed the correct count. | PASS | Multiple products were added successfully. |
 
