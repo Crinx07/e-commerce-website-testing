@@ -20,6 +20,7 @@
 | Test Case ID | Actual Result | Status | Notes |
 |---|---|---|---|
 | CART-001 | Cart badge displayed 1 after adding one product. | PASS | Badge Updated Correctly. |
+| CART-001 | Clicking Add to cart for the Sauce Labs Fleece Jacket does not add the product to the cart. | FAIL | Tested with problem_user; see BUG-005. The Bike Light could be added successfully. |
 | CART-002 | Product disappeared from the cart, and the badge no longer displayed a number. | PASS | Cart updated correctly after removal. |
 | CART-003 | Both products appeared in the cart, and the badge displayed the correct count. | PASS | Multiple products were added successfully. |
 
